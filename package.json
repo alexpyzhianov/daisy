@@ -1,0 +1,23 @@
+{
+    "name": "daisy",
+    "version": "0.1.0",
+    "description": "Gatsby clone for educational purposes",
+    "main": "build/index.js",
+    "author": "alex.pyzhianov@gmail.com",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc -w",
+        "test": "jest src/**/*.test.ts",
+        "test:silent": "jest src/**/*.test.ts --silent",
+        "daisy": "node build/index.js"
+    },
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "@types/node": "^13.11.1",
+        "jest": "^25.5.3",
+        "prettier": "^2.0.5",
+        "ts-jest": "^25.4.0",
+        "typescript": "^3.8.3"
+    }
+}

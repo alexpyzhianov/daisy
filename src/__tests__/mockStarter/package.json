@@ -1,0 +1,13 @@
+{
+    "name": "mock-starter",
+    "version": "1.0.0",
+    "description": "Mock starter for Daisy",
+    "main": "index.html",
+    "license": "MIT",
+    "scripts": {
+        "develop": "daisy develop"
+    },
+    "devDependencies": {
+        "daisy": "^0.1.0"
+    }
+}
